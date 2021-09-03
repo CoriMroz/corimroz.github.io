@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Zach Gharst
+    tagline: Software Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: zdgharst@gmail.com
+    phone: 913-907-9192
+    website: gharst.engineer #do not add http://
+    linkedin: zach-gharst
+    github: ZDGharst
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    print: http://gharst.engineer/GharstZach_Resume.pdf
+    strava: 33172158
+    steam: gharst
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: <i class="fas fa-bicycle"></i> Cycling
+        link:
+
+      - item: <i class="fas fa-infinity"></i> Mathematics
+        link:
+
+      - item: <i class="fas fa-gamepad"></i> Gaming
+        link:
+
+      - item: <i class="fas fa-tshirt"></i> Male Fashion
+        link:
+
+    organizations:
+      - item: Member of BikeWalkKC
+        link:
+
+      - item: Member of the Association of Computing Machinery
+        link: 
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a Computer Science student at the University of Missouri-Kansas City. I also work part time as a tutor at Metropolitan Community College. At Cerner, I worked on a full-stack Java product as part of the Core Concepts team. Check out my skills below; I'm always the go-to person for Git, Agile, and documentation in my team projects!
+
+      🚴 Cyclist  
+      🏫 Tutor  
+      🏅 Competitor
+education:
+    - degree: Bachelor's, Computer Science, 4.0 GPA
+      university: University of Missouri-Kansas City
+      time: 2020 - 2021
+      details: |
+        Currently attending classes as a Senior at UMKC in pursuit of a BSCS. Expected graduation: Fall semester 2021.
+
+    - degree: General Studies, Computer Science, 4.0 GPA
+      university: Metropolitan Community College-Maple Woods
+      time: 2018 - 2019
+      details: |
+        Activities and Societies: Member of Phi Theta Kappa; achieved Dean’s List every semester.  
+        Leader of the Cycling Club; worked on campus in the Math Lab.
+
+experiences:
+    - role: Learning Assistant
+      time: 2019 - Current
+      company: Metropolitan Community College-Kansas City
+      details: |
+          - Continuing tutoring services through the COVID-19 pandemic by creating an online platform through Discord for students and tutors to engage with each other.
+          - Providing walk-in tutoring in the Math & Science Lab.
+          - Conducting one-on-one assistance to students who need tutoring in algebra, calculus, physics, biology, statistics, information technology, and computer science (C++, Python, arch) subjects.
+          - Creating handouts and supplementary materials to assist student learning.
+          - Working with a variety of individuals, students, staff, and faculty to support the philosophy and mission of an urban, open-door, comprehensive community college.
+
+    - role: Software Engineer Intern
+      time: Summer 2021
+      company: Cerner Corporation
+      details: |
+          - Make enhancements to existing software with minimal direction.
+          - Participate in code reviews, identify issues/deviations from best practices, collaborate on component level technical designs, and write design documentation adhering to software requirements.
+          - Own and assist others in debugging and documenting root cause analysis and resolution, identify process improvements at team level to support operations and development ecosystem, provide software release support, and verifying software enhancements through testing.
+
+    - role: Field Radio Operator, Corporal of Marines
+      time: 2009 - 2013
+      company: United States Marine Corps
+      details: |
+          - Employ radio to send and receive messages. Typical duties include the set up and tuning of radio equipment and Very Small Aperture Terminal-Small, including antennas and power sources; establishing contact with distant stations; processing and logging of messages; making changes to frequencies or cryptographic codes.
+          - Held supervisory responsibilities as a Corporal; in charge of a small team of three to five junior enlisted Marines.
+projects:
+    title: Projects
+    intro: >
+      These are some of the projects that I'm proud of. For some of them, I'm proud of my project structure, clean programming, and efficiency. For others, it's how I worked as a team to accomplish a complex scope.
+    assignments:
+      - title: DeviceViewer Location Enforcement (Cerner)
+        tagline: "Joined an existing product and team to add user interface components, create backend operations, perform unit testing, and documenting design and procedures. Java, JUnit / Mockito, SWT"
+        
+      - title: Commerce Bank Web App
+        link: "https://github.com/ZDGharst/CommerceBankWebApp"
+        tagline: "A fullstack application that allows the user to receive notifications for transactions made to their bank account. ASP.NET Core"
+
+      - title: Survive
+        link: "https://github.com/ZDGharst/Survive"
+        tagline: "In this game, the goal is for the player's turret to survive for as long as possible against hordes of zombies. Unity 3D"
+
+      - title: DormAssignments (AI)
+        link: "https://github.com/ZDGharst/DormAssignments"
+        tagline: "From a list of student compatibilities, assign students to dorm rooms using Simulated Annealing. Implemented tools to debug the program and visualize results. C++"
+
+      - title: 8PuzzleSolver (AI)
+        link: "https://github.com/ZDGharst/8Puzzle#"
+        tagline: "Solves an 8-puzzle arrangement using A* search with optimal data structures and algorithms. C++"
+
+      - title: Emergency Response Simulator
+        link: "https://github.com/ZDGharst/EmergencyResponseSimulator"
+        tagline: "Created a graph of the northland of Kansas City, MO, and implemented Dijkstra's pathfinding algorithm to assign vehicles to emergency scenarios. C++"
+
+      - title: Nine Men's Morris
+        link: "https://github.com/ZDGharst/NineMensMorris"
+        tagline: "Recreated the board game Nine Men's Morris in Unity engine with a 5 person team; focused heavily on correctly using the Scrum framework and test-driven development. Unity, C#, Scrum"
+
+      - title: EarthquakeDB
+        link: "https://github.com/ZDGharst/EarthquakeDB"
+        tagline: "Worked with three other students to create, import, process, and analyze statistics on an extremely large dataset of earthquakes from around the world. SQL, MySQL, PHP"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C++
+        level: 98%
+
+      - name: Git
+        level: 98%
+
+      - name: Ubuntu / Linux
+        level: 95%
+
+      - name: Agile
+        level: 90%
+
+      - name: Java
+        level: 80%
+        
+      - name: MySQL / SQL
+        level: 75%
+
+      - name: TypeScript / JavaScript
+        level: 50%
+        
+      - name: REST API
+        level: 50%
+        
+      - name: MongoDB
+        level: 40%
+# footer: >
+  #  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
